@@ -156,7 +156,7 @@
 }
 /* Responsive */
 
-@media (max-width: 768px){
+@media (max-width: 820px){
     .hamb{
         display: block;
     }
@@ -190,7 +190,7 @@
     }
 
     .active{
-        height: 70vh;
+        height: 85vh;
         visibility: visible;
     }
 
@@ -220,6 +220,7 @@
     .text{
         width: 70%;
         margin-left: 10%;
+        margin-top: 20%;
     }
 }
 @media (max-width: 425px){
@@ -229,6 +230,13 @@
     .text{
         width: 90%;
         margin-left: 8%;
+        margin-top: 40%;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .active{
+        height: 70vh;
     }
 }
 @media (max-width:375px){
