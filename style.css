@@ -125,7 +125,7 @@
     width: 100%;
     height: 100%;
     background-color: #4AE290;
-    transition: .7s ease;
+    transition: .55s ease;
 }
 .btn1::before{
     width: 0;
@@ -171,7 +171,6 @@
     .nav-header{
         display: flex;
     }
-
 
     .mobile{
         position: absolute;

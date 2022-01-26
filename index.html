@@ -5,12 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gym Me</title>
-    <link rel="stylesheet" href="style.css">
+
     <script src="script.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+    <script src="swiper.js" defer></script>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mission.css">
+    <link rel="stylesheet" href="trainig.css">
 
 </head>
 <body>
@@ -71,5 +80,43 @@
             </div>
         </section>
     </div>
+
+    <section class="mission">
+        <div class="mission-header">
+            <img src="img/mission.svg" alt="">
+            <h1>Our mission</h1>
+        </div>
+        <div class="mission-content">
+            <p>We are distinguished by our unsurpassed motivating atmosphere, knowledgeable staff, and premier exercise equipment, which supports our members in meeting their individual fitness goals.</p>
+            <p>The strength of our heart-felt identity is utilized to inspire every person that steps foot into our gyms to better themselves.</p>
+            
+                <a href="" class="btn-mission"><button> <p> JOIN NOW </p> <img src="img/seta-direita.svg" alt=""></button></a>
+            
+        </div>
+    </section>
+
+    <section class="training-main">
+        <div class="mission-header training">
+            <img src="img/training.svg" alt="">
+            <h1>Training programs</h1>
+        </div>
+        <div class="wrapper">
+            <div class="swiper mySwiper">
+                <div class="wrapper-swiper swiper-wrapper">
+                  <div class="swiper-slide core"><img src="img/Group 45.png" alt=""><p>Boxing</p></div>
+                  <div class="swiper-slide core"><img src="img/Group 48.png" alt=""><p>Core</p></div>
+                  <div class="swiper-slide core"><img src="img/Group 49.png" alt=""><p>Yoga</p></div>
+                  <div class="swiper-slide core"><img src="img/Group 52.png" alt=""><p>Full <Body></Body></p></div>
+                  <div class="swiper-slide core"><img src="img/Group 44.png" alt=""><p>Gymnastics</p></div>
+                  <div class="swiper-slide core"><img src="img/Group 53.png" alt=""><p>Body Pump</p></div>
+                </div>
+                <div class="btn">
+                    <div class="btnNext"><img src="img/prev.svg" alt=""></div>
+                    <div class="btnPrev"><img src="img/next.svg" alt=""></div>
+                </div>
+              </div>
+            
+        </div>
+    </section>
 </body>
 </html>

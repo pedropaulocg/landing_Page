@@ -1,0 +1,49 @@
+.wrapper{
+    padding: 0 30px;
+}
+
+.training-main{
+    margin-bottom: 5%;
+}
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+    gap: 2%;
+    margin-top: 2%;
+}
+.btn img{
+    cursor: pointer;
+}
+.swiper-slide img{
+    width: 100%;
+}
+
+.training{
+    width: 35%;
+    margin: 0 auto;
+    margin-bottom: 5%;
+}
+
+.core p{
+    background-color: white;
+    display: inline;
+    position: relative;
+    top: -40px;
+    left: 15px;
+    font-size: 14px;
+    font-family: 'Inter';
+    font-weight: 800;
+    padding: 4px 14px;
+}
+
+@media (max-width: 768px){
+    .core p{
+        font-size: 12px;
+        top: -35px;
+        left: 10px;
+        padding: 4px 10px;
+    }
+}
