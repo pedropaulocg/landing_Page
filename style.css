@@ -154,6 +154,11 @@
 .hamb{
     display: none;
 }
+
+/* Animation */
+
+
+
 /* Responsive */
 
 @media (max-width: 820px){

@@ -1,0 +1,191 @@
+.pricing-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.pricing-header h1{
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Inter';
+    margin-left: -50px;
+    color: black;
+}
+
+
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+}
+.side{
+    text-align: center;
+    background: #13131609;
+    color: black;
+    font-family: 'Inter';
+    padding: 80px 90px;
+}
+.side h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 5%;
+
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.side p{
+    margin-top: -20px;
+    font-size: 14px;
+}
+.side ul{
+    text-align: justify;
+    margin-top: 10%;
+}
+.side li{
+    margin-bottom: 3%;
+}
+.btn-side{
+    display: inline-block;
+    border: 1px solid black;
+    background-color: #13131605;
+    color: black;
+    font-weight: bold;
+    padding: 14px 40px;
+    margin-top: 10%;
+    transition: .4s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-side:hover{
+    background-color: black;
+    color: white;
+}
+
+.elite{
+    padding: 42px 90px;
+}
+
+.main{
+    text-align: center;
+    background: #131316;
+    color: white;
+    font-family: 'Inter';
+    padding: 80px 90px;
+}
+.main h2{
+    font-size: 50px;
+    font-weight: 800;
+    margin-top: 5%;
+
+}
+.price{
+    font-size: 30px;
+    font-weight: 700;
+}
+.main p{
+    margin-top: -20px;
+    font-size: 14px;
+}
+.main ul{
+    text-align: justify;
+    margin-top: 10%;
+}
+.main li{
+    margin-bottom: 3%;
+}
+
+.btn-main{
+    display: inline-block;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 14px 40px;
+    margin-top: 10%;
+    transition: .4s;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+}
+
+.btn-main:hover{
+    background-color: #25C870;
+    color: white;
+}
+
+@media (max-width: 768px){
+    .cards{
+        display: block;
+    }
+    .side{
+        display: flex;
+        align-items: center;
+        padding: 0px;
+        justify-content: center;
+        text-align: left;
+        gap: 5%;
+        width: 74%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .header-card p{
+        margin-left: 10px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        padding: 0;
+        justify-content: center;
+        text-align: left;
+        gap: 5%;
+        width: 74%;
+        margin: 30px auto;
+    }
+}
+@media (max-width: 428px){
+    .pricing-header h1{
+        font-size: 32px;
+    }
+    .side{
+        width: 90%;
+    }
+    .main{
+        width: 90%;
+    }
+    .header-card h2{
+        font-size: 30px;
+        width: 120%;
+    }
+    .header-card p{
+        margin-top: -12px;
+        margin-left: 1px;
+    }
+    .price{
+        font-size: 16px;
+    }
+    .side ul{
+        text-align: left;
+        font-size: 14px;
+    }
+    .main ul{
+        text-align: left;
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 375px){
+    .header-card{
+        margin-left: 30px;
+    }
+    .btn-side,.btn-main{
+        padding: 7px 20px;
+        font-size: 14px;
+    }
+}
+
+
+
