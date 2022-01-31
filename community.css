@@ -1,0 +1,89 @@
+body{
+    overflow-x: hidden;
+}
+.comunity-header{
+    display: flex;
+    align-items: center;
+    width: 425px;
+    align-self: flex-start;
+    
+}
+.comunity-header h1{
+    font-size: 50px;
+    font-family: 'Inter';
+    margin-left: -50px;
+    font-weight: 800;
+    color: black;
+}
+.community{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+
+.wrapper2{
+    width: 60%;
+    margin-right: -20%;
+}
+.slide{
+    max-height: 60vh;
+}
+.slide img{
+    width: 50vh;
+    height: 60vh;
+}
+.btn-community{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10%;
+    margin-top: 2%;
+    margin-left: 40vw;
+}
+.btn-community img{
+    cursor: pointer;
+}
+
+.coment{
+    position: relative;
+    top: -220px;
+    z-index: 10000;
+}
+.coment p{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Open sans';
+}
+.coment p+p{
+    margin-top: 5%;
+    font-size: 22px;
+}
+.coment span{
+    color: #4AE290;
+    font-size: 30px;
+}
+
+@media (max-width: 768px){
+    .community{
+        display: block;
+    }
+    .wrapper2{
+        width: 100%;
+        margin-right: 0;
+    }
+    .comunity-header{
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 5%;
+    }
+}
+@media (max-width: 425px){
+    .comunity-header h1{
+        font-size: 32px;
+    }
+    .coment p{
+        font-size: 14px;
+    }
+}

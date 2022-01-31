@@ -7,6 +7,7 @@
     <title>Gym Me</title>
 
     <script src="script.js" defer></script>
+    <script src="faq.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,11 +19,14 @@
 
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
     <script src="swiper.js" defer></script>
+    <script src="swiper2.js" defer></script>
 
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mission.css">
     <link rel="stylesheet" href="trainig.css">
     <link rel="stylesheet" href="pricing.css">
+    <link rel="stylesheet" href="community.css">
+    <link rel="stylesheet" href="faq.css">
 
 </head>
 <body>
@@ -170,7 +174,7 @@
                 <div class="card-content">
                     <ul>
                         <li><img src="img/checkmark.svg" alt=""> unlimited gym access</li>
-                        <li><img src="img/checkmark.svg" alt=""> 1 training program</li>
+                        <li><img src="img/checkmark.svg" alt=""> all training programs</li>
                         <li><img src="img/checkmark.svg" alt=""> free fitness consultation</li>
                         <li><img src="img/checkmark.svg" alt=""> personal trainer</li>
                         <li><img src="img/checkmark.svg" alt=""> 50% off drinks</li>
@@ -180,5 +184,111 @@
             </div>
         </div>
     </section>
+
+
+    <section class="community">
+        <div class="comunity-header">
+          <img src="img/baloon.svg" alt="">
+          <h1>Community</h1>
+        </div>
+        
+        <div class="wrapper2">
+            <div class="swiper mySwiper2">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide slide">
+                      <img src="img/pic1.png" alt="">
+                      <div class="coment">
+                        <p>“Great location, great price and great, helpful people. What to want more?”</p>
+                        <p><span>~</span> Mark A.</p>
+                      </div>  
+                  </div>
+                  <div class="swiper-slide slide">
+                      <img src="img/pic2.png" alt="">
+                      <div class="coment">
+                        <p>“Gymme changed my life. Not only physically but mentally as well. I’m a better mother, and all around better human being because of this gym.”</p>
+                        <p><span>~</span> Lauren K.</p>
+                      </div>
+                  </div>
+                  <div class="swiper-slide slide">
+                      <img src="img/pic3.png" alt=""> 
+                      <div class="coment">
+                        <p>“Love these workouts! Trainers are knowledgeable and motivating. Gymme is wonderful!”</p>
+                        <p><span>~</span> John D.</p>
+                      </div> 
+                    </div>
+                </div>
+                <div class="btn-community">
+                    <div class="btnNext2"><img src="img/prev.svg" alt=""></div>
+                    <div class="btnPrev2"><img src="img/next.svg" alt=""></div>
+                </div>
+              </div>
+            
+        </div>
+
+      </section>
+  
+      <section class="faq">
+          <h1>FAQ</h1>
+            <div class="question">
+              <div class="faq-header" onclick="faq1()">
+                  <h6>How can i book a workout?</h6>
+                  <img src="img/Group (1).svg" alt="" id="bt1">
+              </div>
+
+              <div class="faq-content" id="faq1">
+                  <p>Booking a workout classe is simple for our members. Simply log into your Gymme account on our website and click "book class" button . You can book 3 days in advance at 9pm.</p>
+                  <p>You can cancel your class online by logging back in and click "cancel booking".</p>
+              </div>
+            </div>
+
+            <div class="question">
+                <div class="faq-header" onclick="faq2()">
+                    <h6>Can I pay by cash for my membership?</h6>
+                    <img src="img/Group (1).svg" alt="" id="bt2">
+                </div>
+
+                <div class="faq-content" id="faq2">
+                    <p>Booking a workout classe is simple for our members. Simply log into your Gymme account on our website and click "book class" button . You can book 3 days in advance at 9pm.</p>
+                    <p>You can cancel your class online by logging back in and click "cancel booking".</p>
+                </div> 
+            </div>
+
+            <div class="question">
+                <div class="faq-header" onclick="faq3()">
+                    <h6>What age do i need to be to join?</h6>
+                    <img src="img/Group (1).svg" alt="" id="bt3">
+                </div>
+
+                <div class="faq-content" id="faq3">
+                    <p>Booking a workout classe is simple for our members. Simply log into your Gymme account on our website and click "book class" button . You can book 3 days in advance at 9pm.</p>
+                    <p>You can cancel your class online by logging back in and click "cancel booking".</p>
+                </div> 
+            </div>
+
+            <div class="question">
+                <div class="faq-header" onclick="faq4()">
+                    <h6>Are there any lockers?</h6>
+                    <img src="img/Group (1).svg" alt="" id="bt4">
+                </div>
+
+                <div class="faq-content" id="faq4">
+                    <p>Booking a workout classe is simple for our members. Simply log into your Gymme account on our website and click "book class" button . You can book 3 days in advance at 9pm.</p>
+                    <p>You can cancel your class online by logging back in and click "cancel booking".</p>
+                </div> 
+            </div>
+
+            <div class="question">
+                <div class="faq-header" onclick="faq5()">
+                    <h6>How do i cancel my membership?</h6>
+                    <img src="img/Group (1).svg" alt="" id="bt5">
+                </div>
+
+                <div class="faq-content" id="faq5">
+                    <p>Booking a workout classe is simple for our members. Simply log into your Gymme account on our website and click "book class" button . You can book 3 days in advance at 9pm.</p>
+                    <p>You can cancel your class online by logging back in and click "cancel booking".</p>
+                </div> 
+            </div>
+      </section>
+
 </body>
 </html>
