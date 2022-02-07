@@ -17,6 +17,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" integrity="sha512-IgmDkwzs96t4SrChW29No3NXBIBv8baW490zk5aXvhCD8vuZM3yUSkbyTBcXohkySecyzIrUwiF/qV0cuPcL3Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
     <script src="swiper.js" defer></script>
     <script src="swiper2.js" defer></script>
@@ -80,7 +82,7 @@
         
 
         <section class="main-home">
-            <div class="text">
+            <div class="text" data-aos="fade-right" data-aos-duration="1500">
                 <h1>Get the best part of your day</h1>
                 <h1><span>- you fit here</span></h1>
                 <p>We provide serious fitness but within a fun and friendly, safe space.</p>
@@ -89,7 +91,7 @@
         </section>
     </div>
 
-    <section class="mission">
+    <section class="mission" data-aos="fade-in" data-aos-duration="1500">
         <div class="mission-header">
             <img src="img/mission.svg" alt="">
             <h1>Our mission</h1>
@@ -103,7 +105,7 @@
         </div>
     </section>
 
-    <section class="training-main">
+    <section class="training-main" data-aos="fade-left" data-aos-duration="1500">
         <div class="training">
             <img src="img/training.svg" alt="">
             <h1>Training programs</h1>
@@ -133,7 +135,7 @@
             <h1>Pricing plan</h1>
         </div>
         <div class="cards">
-            <div class="side">
+            <div class="side" data-aos="zoom-in" data-aos-duration="500">
                 <div class="header-card">
                     <span class="tag is-black">Basic</span>
                     <h2>20<span class="price">$</span></h2>
@@ -149,7 +151,7 @@
                 </div>
             </div>
 
-            <div class="main">
+            <div class="main" data-aos="zoom-in" data-aos-duration="1500">
                 <div class="header-card">
                     <span class="tag is-white">Premium</span>
                     <h2>35 <span class="price">$</span></h2>
@@ -166,7 +168,7 @@
                 </div>
             </div>
 
-            <div class="side elite">
+            <div class="side elite" data-aos="zoom-in" data-aos-duration="2500">
                 <div class="header-card">
                     <span class="tag is-black">Elite</span>
                     <h2>49 <span class="price">$</span></h2>
@@ -187,7 +189,9 @@
     </section>
 
 
-    <section class="community">
+    <section class="community" data-aos="fade-right"
+    data-aos-offset="300"
+    data-aos-easing="ease-in-sine">
         <div class="comunity-header">
           <img src="img/baloon.svg" alt="">
           <h1>Community</h1>
@@ -230,7 +234,7 @@
   
       <section class="faq">
           <h1>FAQ</h1>
-            <div class="question">
+            <div class="question" data-aos="fade-right">
               <div class="faq-header" onclick="faq1()">
                   <h6>How can i book a workout?</h6>
                   <img src="img/Group (1).svg" alt="" id="bt1">
@@ -242,7 +246,7 @@
               </div>
             </div>
 
-            <div class="question">
+            <div class="question" data-aos="fade-left">
                 <div class="faq-header" onclick="faq2()">
                     <h6>Can I pay by cash for my membership?</h6>
                     <img src="img/Group (1).svg" alt="" id="bt2">
@@ -254,7 +258,7 @@
                 </div> 
             </div>
 
-            <div class="question">
+            <div class="question" data-aos="fade-right">
                 <div class="faq-header" onclick="faq3()">
                     <h6>What age do i need to be to join?</h6>
                     <img src="img/Group (1).svg" alt="" id="bt3">
@@ -266,7 +270,7 @@
                 </div> 
             </div>
 
-            <div class="question">
+            <div class="question" data-aos="fade-left">
                 <div class="faq-header" onclick="faq4()">
                     <h6>Are there any lockers?</h6>
                     <img src="img/Group (1).svg" alt="" id="bt4">
@@ -278,7 +282,7 @@
                 </div> 
             </div>
 
-            <div class="question">
+            <div class="question" data-aos="fade-right">
                 <div class="faq-header" onclick="faq5()">
                     <h6>How do i cancel my membership?</h6>
                     <img src="img/Group (1).svg" alt="" id="bt5">
@@ -292,10 +296,10 @@
       </section>
 
 
-      <section class="end">
+      <section class="end" >
           <img src="img/end.png" alt="">
 
-          <div class="end-content">
+          <div class="end-content" data-aos="zoom-in">
               <h1>Wanna join <span>&</span> Have fun?</h1>
               <p>We’ll keep you updated on the things you need to know about Gymme. Nothing more, nothing less.</p>
               <a href="" class="btn-join btn1 btn-end">JOIN NOW</a>
@@ -310,5 +314,10 @@
         <p>All rigths reserved. Gymme 2021</p>
     </footer>
 
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

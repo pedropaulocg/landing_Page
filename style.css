@@ -155,9 +155,28 @@
     display: none;
 }
 
+.animate{
+    animation-name: tilt;
+    animation-duration: .7s;
+    animation-timing-function: ease-in-out;
+}
+
 /* Animation */
 
-
+@keyframes tilt{
+    25%{
+        transform: rotate(5deg);
+    }
+    50%{
+        transform: rotate(-5deg);
+    }
+    75%{
+        transform: rotate(5deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
 
 /* Responsive */
 
